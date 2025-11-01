@@ -1,0 +1,25 @@
+{
+  "model_name": "Run vs Walk Classifier",
+  "version": "1.0",
+  "training_date": "2025-11-01 14:28:33",
+  "dataset_size": 88588,
+  "training_samples": 70870,
+  "testing_samples": 17718,
+  "features": [
+    "acceleration_x",
+    "acceleration_y",
+    "acceleration_z",
+    "gyro_x",
+    "gyro_y",
+    "gyro_z"
+  ],
+  "n_features": 6,
+  "random_forest_accuracy": 0.9891071227000791,
+  "neural_network_accuracy": 0.9912518342928096,
+  "best_model": "Neural Network",
+  "best_accuracy": 0.9912518342928096,
+  "classes": {
+    "0": "Walking",
+    "1": "Running"
+  }
+}
